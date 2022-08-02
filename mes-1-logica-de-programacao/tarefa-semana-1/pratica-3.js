@@ -13,3 +13,4 @@ let IsString = typeof nomedavariavel =="string"
 console.log(true)
 let numero = typeof nomedavariavel =="string"
 console.log(false)
+
