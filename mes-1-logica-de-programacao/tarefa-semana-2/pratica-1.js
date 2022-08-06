@@ -1,1 +1,6 @@
-for i in {1..200}
+function helloWorld () {
+
+    console.log("Hello,World")
+   }
+   
+   helloWorld()
