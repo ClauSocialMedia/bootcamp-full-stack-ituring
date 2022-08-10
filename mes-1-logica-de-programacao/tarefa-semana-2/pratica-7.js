@@ -1,4 +1,4 @@
-function idiomas() {
+function idiomas(idioma) {
     if ("en") {
         console.log('Hello World!');
     } if ("de") {

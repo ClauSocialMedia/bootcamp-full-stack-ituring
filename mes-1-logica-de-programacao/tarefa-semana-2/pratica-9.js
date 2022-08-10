@@ -1,9 +1,12 @@
 
-function gerarNumero() {
-    min = 10
-    max = 20
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+function maiorDe2Numeros(numero1, numero2) {
+    if (numero1 > numero2) {
+        console.log(numero1)
+    } else () {
+        console.log(numero2)
+    }
 }
 
-let numero = gerarNumero()
-console.log(numero)
+maiorDe2Numeros(1,2)
+maiorDe2Numeros(1,1)
+maiorDe2Numeros(3,2)
