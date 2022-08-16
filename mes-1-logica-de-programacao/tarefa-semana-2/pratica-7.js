@@ -1,10 +1,9 @@
-function idiomas(idioma) {
-    if ("en") {
+function helloWorldIdioma(idioma) {
+    if (idioma == "en") {
         console.log('Hello World!');
-    } if ("de") {
+    } else if (idioma == "de") {
         console.log('Hallo Welt!');
-    }
-     if ("fr") {
+    } else if (idioma == "fr") {
         console.log('Bonjour le monde!');
     } else {
         console.log('Olá mundo!')
@@ -12,13 +11,6 @@ function idiomas(idioma) {
 
 }
 
-
-idiomas()
-let idioma1 = "en"
-
-
-idioma2 = "de"
-
-
-idioma3 = "fr"
-
+helloWorldIdioma ("en")
+helloWorldIdioma ("de")
+helloWorldIdioma ("fr")
