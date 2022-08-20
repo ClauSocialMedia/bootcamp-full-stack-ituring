@@ -1,16 +1,13 @@
-let Nome 
-let Email 
-let Profissão
-let Idade 
-let LugarSonho
+function dados(Nome, Email, Profissão, Idade, LugarSonho){
+   
+    console.log(Nome, Email, Profissão, Idade, LugarSonho)
 
-Nome = "Claudia"
-Email = "claudiapiurkoski@gmail.com"
-Idade = 46
-LugarSonho = "Fernando de Noronha"
+}
 
-let IsString = typeof nomedavariavel =="string"
-console.log(true)
-let numero = typeof nomedavariavel =="string"
-console.log(false)
+dados("Claudia", "claudiaoiuskoski@hotmail.com", "supervisora", 46 ,"Noronha")
 
+console. log(dados(Nome === "string"))
+console. log(dados(Email === "string"))
+console. log (dados(Profissão === "string"))
+console. log(dados(Idade === "string"))
+console. log(dados(LugarSonho === "string"))
