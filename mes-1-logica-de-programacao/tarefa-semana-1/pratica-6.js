@@ -1,3 +1,6 @@
+function numeros(numero1, numero2, numero3, numero4, numero5, numero6, numero7, numero8, numero9, numero10){
+   
+}
 let numero1 = 1
 let numero2 = 2
 let numero3 = 3
@@ -8,6 +11,8 @@ let numero7 = 7
 let numero8 = 8
 let numero9 = 9
 let numero10 = 10
+
+
 
 let resultado1 = numero1*123
 console.log(resultado1)
