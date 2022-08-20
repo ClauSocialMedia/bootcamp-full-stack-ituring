@@ -1,8 +1,8 @@
 
-let milha 
-let km
-const conversorMilhaParaKm = 1.609
-let distanciaTerraLuaEmMilhas = 238900
-let distanciaTerraLuaEmKm = conversorMilhaParaKm * distanciaTerraLuaEmMilhas
+function distanciaLuaTerra(milhas, quilometros){
+    console.log(`Distancia lua terra é ${milhas, quilometros} KM!`)
+}
 
-console.log(distanciaTerraLuaEmKm + " quilômetros")
+
+distanciaLuaTerra(238900, 1609)
+
