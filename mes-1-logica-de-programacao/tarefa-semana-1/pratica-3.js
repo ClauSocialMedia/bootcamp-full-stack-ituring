@@ -1,13 +1,11 @@
-function dados(Nome, Email, Profissão, Idade, LugarSonho){
-   
-    console.log(Nome, Email, Profissão, Idade, LugarSonho)
+const Nome = ("Claudia")
+const Email = ("claudiaoiuskoski@hotmail.com")
+const Profissão = ("supervisora")
+const Idade = (46)
+const LugarSonho = ("Noronha")
 
-}
-
-dados("Claudia", "claudiaoiuskoski@hotmail.com", "supervisora", 46 ,"Noronha")
-
-console. log(dados(Nome === "string"))
-console. log(dados(Email === "string"))
-console. log (dados(Profissão === "string"))
-console. log(dados(Idade === "string"))
-console. log(dados(LugarSonho === "string"))
+console.log(typeof Nome == "string")
+console.log(typeof Email == "string")
+console.log(typeof Profissão == "string")
+console.log(typeof Idade == "string")
+console.log(typeof LugarSonho == "string")
