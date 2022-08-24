@@ -5,7 +5,7 @@ function buscaTextoEmLista(lista, termoDeBusca) {
     for (let i = 0 ; i < lista.length; i ++)  {
 
         if (lista[i].includes(termoDeBusca)) {
-            
+            listaFiltrada[] = lista[i]
            
 
             listaFiltrada.push(serie)
@@ -18,4 +18,4 @@ function buscaTextoEmLista(lista, termoDeBusca) {
 
 let serie= ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"]
 
-console.log(buscaTextoEmLista(serie, "Th"))
+console.log(buscaTextoEmLista(serie, ["Th"]))

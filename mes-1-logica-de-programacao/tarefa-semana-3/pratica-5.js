@@ -8,7 +8,7 @@ function favorito(lista, termoDeBusca) {
         }
     }
 
-    return serie
+    return se
 
 }
 
